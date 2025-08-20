@@ -8,7 +8,7 @@ This project explores the application of **Physics-Informed Neural Networks (PIN
 
 The goal of this project was to build a model capable of predicting the kinetic behavior of a reaction using experimental data. We started with a basic neural network for regression, then advanced to PINNs to solve systems of differential equations. The final task was to perform an inverse analysis on the BZ reaction to estimate its key parameters.
 
-For a deep dive into the theory and detailed results, please see the **[full project report](ugp-2.pdf)**.
+
 
 ---
 
@@ -36,7 +36,7 @@ The inverse model successfully estimated the parameters for `ε` and `f` with hi
 * **f:** 0.670908 (True: 0.666667)
 * **q:** 0.002624 (True: 0.000800)
 
-![Parameter Convergence Plot](https://i.imgur.com/zV4Q5fG.png)
+
 
 ---
 
@@ -61,9 +61,3 @@ The inverse model successfully estimated the parameters for `ε` and `f` with hi
 
 ---
 
-## Repository Files
-
-* `README.md`: This overview file.
-* `ugp-2.pdf`: The full, detailed project report.
-* `/scripts`: A directory containing all the Python scripts for the models.
-* `requirements.txt`: Required Python libraries.
